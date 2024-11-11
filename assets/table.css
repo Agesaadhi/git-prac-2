@@ -1,0 +1,274 @@
+/*.table{
+    display: table;
+    width: 500px;
+    
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.row{
+    display: table-row;
+    
+}
+.col{
+    display: table-cell;
+    border: 1px solid yellowgreen;
+    padding: 10px 20px;
+}
+.heading {
+    display: table-header-group;
+    background-color: gray;
+    color: rgb(232, 130, 6);
+    text-align: center;
+    font-weight: bolder;
+}
+.footer {
+    display: table-footer-group;
+}
+.caption {
+    display: table-caption;
+    text-align: center;
+}
+.colgrp{
+    display: table-column-group;
+
+}
+.tblcol{
+    display: table-column;
+}
+.col3 {
+    background-color: palevioletred;
+}*/
+/*html{
+    background-color: grey;
+}
+body{
+    background-color: white;
+    height: 800px;
+    width: 800px;
+    margin:30px auto;
+}
+.row {
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+    color: gray;
+}
+.black {
+    background-color: black;
+}*/
+/*
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box img {
+    max-height: 500px;
+    max-width: 500px;
+    padding: 10px;
+    opacity: 0.5;
+}
+.box img:hover {
+    opacity: 1;
+    transition: .9s;
+}*/
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #9CB071;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: goldenrod;
+    
+}
+.logo {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 8px;
+    color:#8571B0;
+    
+}
+.navbar-links ul {
+    display: flex;
+    
+}
+.navbar-links ul li {
+    list-style: none;
+}
+.navbar-links ul li a {
+    text-decoration: none;
+    color: brown;
+    padding: 16px;
+    display: block;
+}
+.navbar-links ul li a:hover{
+    background-color: rgb(232, 186, 67);
+}
+.btn{
+    
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 30px;
+    height: 25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+@media (max-width:600px) {
+    .btn{
+      display: flex;
+    }
+    .navbar-links{
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links ul{
+      flex-direction: column;
+      width: 100%;
+    }
+    .navbar-links ul li{
+      text-align: center;
+    }
+    .navbar-links.active{
+      display: flex;
+    }
+  }*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+  * {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+  }
+  .form {
+    width: 400px;
+    min-height: 400px;
+    
+    padding: 32px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  .form img {
+    display: block;
+    margin: auto;
+  }
+  .form-title {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .form-group {
+    height: 48px;
+    
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .form-control {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: none;
+border: 1px solid rgba(128, 128, 128, 0.642);
+outline: none;
+padding: 16px;
+border-radius: 3px;
+z-index: 1;
+  }
+
+  .form-label{
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    color: #a1a1a1;
+    background-color: white;
+    padding: 0 6px;
+    font-size: 14px;
+    transition:.3s;
+  }
+  
+  .form-control:focus+ .form-label{
+    top: -10px;
+    z-index: 10;
+    color: #1B66C9;
+    font-weight: 500;
+  }
+  .form-control:focus{
+    border: 1px solid #1B66C9;
+  }
+  
+  .form-control:not(:focus):valid+label{
+    top: -10px;
+    z-index: 10;
+  }
+  
+  .showLabel{
+    font-size: 14px;
+  }
+.bottom-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+.bottom-box  a{
+ color: #1866c9;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: 500;
+}
+
+.form-button {
+display: block;
+padding: 12px, 32px;
+border: none;
+background-color: #1866c9;
+color: white;
+border-radius: 3px;
+transition: .3s ;
+}
+
+.form-button:hover {
+  box-shadow:0 10px 36px black ;
+}
